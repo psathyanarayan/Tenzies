@@ -1,8 +1,41 @@
-# React + Vite
+# Tenzies Dice Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Tenzies is a simple dice game where the objective is to roll the dice until all the dice show the same value. Click each die to freeze it at its current value between rolls. Try to achieve the lowest score possible!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Tenzies Screenshot](screenshot.png)
+
+## How to Play
+
+1. Click the "Roll" button to roll the dice.
+2. Click on individual dice to freeze their values.
+3. Continue rolling until all dice show the same value.
+4. The lower your score (number of rolls), the better!
+
+## Features
+
+- Randomly generated dice values.
+- Interactive UI for freezing dice.
+- Confetti celebration when you achieve Tenzies!
+- Keeps track of your best score (lowest number of rolls).
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/tenzies-dice-game.git
+2. Navigate to the project directory:
+
+    ```bash
+    cd tenzies-dice-game
+3. Install dependencies:
+   
+   ```bash
+   npm install
+3. Install dependencies:
+   
+   ```bash
+   npm run dev
+4. Open your web browser and visit http://localhost:3000 to play the game.
