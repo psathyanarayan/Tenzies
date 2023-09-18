@@ -2,6 +2,8 @@
 
 ## Overview
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f785960-37de-4f10-8595-ca6f49157d34/deploy-status)](https://app.netlify.com/sites/snp-tenzies/deploys)
+
 Tenzies is a simple dice game where the objective is to roll the dice until all the dice show the same value. Click each die to freeze it at its current value between rolls. Try to achieve the lowest score possible!
 
 ![Tenzies Screenshot](screenshot.png)
